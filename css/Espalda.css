@@ -1,0 +1,43 @@
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    }
+    .flex-container>div{
+        height: 1000px;
+        width: 100%;
+        border: 5px solid #fff;
+    }
+    div.container {
+        width: 96%;
+        max-width: 960px;
+        margin: 0 auto;
+        }
+        img {
+        width: 100%;
+        height: auto;
+        
+    
+    }
+    @media only screen and (max-width: 1000px) {
+        .flex-container {
+            flex-wrap: wrap;
+        }
+    }
+    h1{
+        color: darkgreen;
+        font-family:fantasy;
+    }
+    
+    .home-link {
+        display: inline-block;
+        color: #000;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      .home-link i {
+        margin-right: 5px;
+      }
+      
